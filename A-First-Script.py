@@ -5,6 +5,7 @@ print(2**100)           #Raise 2 to a power
 x= 'Spam!'
 print(x * 8)            #String repetition
 
+#output
 qiang@qiang:/home$ cd /tmp
 qiang@qiang:/tmp$ vi script1.py
 qiang@qiang:/tmp$ cat script1.py
