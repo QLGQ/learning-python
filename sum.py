@@ -1,8 +1,11 @@
 #calculate the value of 1+2+...+100
-sum=0
-i=1
-while i<101:
-   sum=sum+i
-   i=i+1
-print(sum)
 
+def sum(n):
+    result = 0
+    while n > 0:
+       result = result + n
+       n -= 1
+    return result    
+
+print(sum(100))
+print(sum(99999))
