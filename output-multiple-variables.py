@@ -3,6 +3,7 @@ b='parrot'      #Exported to other files
 c='sketch'
 print(a, b, c)  #Also used in this file(in 2.X: print a,b,c)
 
+<<<<<<< HEAD
 #output
 #qiang@qiang:/tmp$ python threenames.py
 #('dead', 'parrot', 'sketch')
@@ -16,3 +17,7 @@ print(a, b, c)  #Also used in this file(in 2.X: print a,b,c)
 #('parrot', 'sketch')
 """
 """
+=======
+
+
+>>>>>>> a9b124fb526c81ac214b6f0c466f9ffc6b9cac9f
