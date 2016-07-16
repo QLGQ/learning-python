@@ -6,6 +6,6 @@ def move(n, a, b, c):
     print('move', a, '-->', c)
     move(n-1, b, a, c)
 
-move(4, 'A', 'B', 'C')
+move(8, 'A', 'B', 'C')
 
 
