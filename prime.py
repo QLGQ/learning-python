@@ -16,12 +16,16 @@ def _odd_iter(maximum):
         yield n
     
 #Construct a filter function to filter the sequence of previous constructs
+#lambda:Anonymous function and The return value is the result of the expression.
 def _not_divisible(n):
     return lambda x: x % n > 0 
-'''
-lambda:Anonymous function and The return value is the result of the expression.
-'''
+
 #Define a generator, and continue to return to the next prime number
+'''
+filter: Return those items of sequence for which function(item) is true.  If
+    function is None, return the items that are true.  If sequence is a tuple
+    or string, return the same type, else return a list.
+'''
 def primes(maximum):
     yield 2
     it = _odd_iter(maximum)
@@ -34,10 +38,6 @@ def primes(maximum):
             yield n
         except Exception: 
             break
-'''
- Return those items of sequence for which function(item) is true.  If
-    function is None, return the items that are true.  If sequence is a tuple
-    or string, return the same type, else return a list.
-'''
+
 #invoke function
 main(10000)

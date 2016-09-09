@@ -1,0 +1,28 @@
+
+def gen(param='spam'):
+    yield param
+    while True:
+        param = yield param
+
+g = gen()
+next(g)
+print(g.send("x"))
+
+def move(a, b, c):
+    print(a, b, c)
+
+def move2(*args):
+    print(len(args))
+    print(args[0], args[1], args[2])
+
+move('a', 'b', 'c')
+move2('a', 'b', 'c')
+
+import backtrace
+
+def iter(n, 1)
+
+def fact_iter(num, product):
+    if num == 1:
+        return product
+    return fact_iter(num - 1, num * product)

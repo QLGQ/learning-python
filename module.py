@@ -16,6 +16,6 @@ def test():
     else:
        print('Too many arguments!')
 
-#if _name_ == '_main_':
+if __name__ == '__main__':
 #print(test())
-test()
+   test()
